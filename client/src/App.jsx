@@ -11,6 +11,7 @@ import Signin from './pages/Signin';
 import Signup from './pages/Signup';
 import Projects from './pages/Projects';
 import Dashboard from './pages/Dashboard';
+import Footcomp from './components/Footcomp';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route  path='/projects' element={<Projects />} />
           <Route  path='/dashboard' element={<Dashboard />} />
         </Routes>
+      <Footcomp />
           
       </BrowserRouter>
     </div>
